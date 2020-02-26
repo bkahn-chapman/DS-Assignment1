@@ -1,3 +1,11 @@
+/*
+* Name: Benjamin Kahn
+* ID: 2316793
+* Class: CPSC-350-01
+* Assignment: Programming Assignment 1: C++ Review
+* About: DNA.cpp is the file that builds all of the functions that fulfill the requirements of the assignment.
+*/
+
 #include "DNA.h"
 #include <iostream>
 #include <fstream>
@@ -168,6 +176,9 @@ void DNA::WriteHeader()
   outFS.open("bkahn.out", ios::app);
   outFS << "Name: Benjamin Kahn" << endl;
   outFS << "ID: 2316793" << endl;
+  outFS << "Class: CPSC-350-01" << endl;
+  outFS << "Assignment: Programming Assignment 1: C++ Review" << endl;
+  outFS << "About: This output file shows the summary statistics for each set of DNA strings, the probabilities of each nucleotide and bigram, as well as the 1000 randomized DNA strings." << endl;
   outFS << endl;
   outFS << "------------------------" << endl;
   outFS << endl;

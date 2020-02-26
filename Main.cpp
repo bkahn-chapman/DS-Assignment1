@@ -1,3 +1,11 @@
+/*
+* Name: Benjamin Kahn
+* ID: 2316793
+* Class: CPSC-350-01
+* Assignment: Programming Assignment 1: C++ Review
+* About: Main.cpp gets the input files from the command prompt and the user and runs the function needed.
+*/
+
 #include "DNA.h"
 #include <iostream>
 #include <fstream>

@@ -1,3 +1,11 @@
+/*
+* Name: Benjamin Kahn
+* ID: 2316793
+* Class: CPSC-350-01
+* Assignment: Programming Assignment 1: C++ Review
+* About: DNA.h instansiates the DNA class, the functions, and the global variables.
+*/
+
 #include <iostream>
 #include <fstream>
 #include <cmath>
